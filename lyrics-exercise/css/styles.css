@@ -1,0 +1,14 @@
+div.echo{
+    color:grey;
+    text-align: right;
+}
+
+#label{
+    font-family:'Franklin Gothic Medium';
+    font-weight: bold;
+}
+
+#footer{
+    font-size: small;
+    color:grey
+}
