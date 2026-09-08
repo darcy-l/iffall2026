@@ -1,0 +1,36 @@
+#scene{
+    border:2px solid lightgray;
+}
+
+.Venkman{
+    color: green;
+}
+
+.Dana{
+    color: red;
+}
+
+.Mayor{
+    color: blue;
+}
+
+.Stantz{
+    color: blueviolet;
+}
+
+.Spengler{
+    color: orange;
+}
+
+.Zeddemore{
+    color: palevioletred;
+}
+
+#action{
+    font-style: italic;
+    color:grey
+}
+
+#name{
+    font-style: bold;
+}
