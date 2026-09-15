@@ -1,0 +1,63 @@
+h1 {
+    font-family: Raleway;
+}
+
+h2 {
+    color: rgb(244, 198, 198);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(244, 198, 198);
+    font-size: 14px;
+    font-weight:normal;
+    }
+
+div {
+    font-family: Raleway;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.em03 {
+    letter-spacing: .3em;
+}
+
+.em-006 {
+    letter-spacing: -.06em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+footer {
+    color: rgb(244, 198, 198);
+    font-size: x-small;
+}
