@@ -1,0 +1,133 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+.content-column {
+    background-color: rgba (0,0,0,.25);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header {
+    background-color: rgba(255,0,0,.25);
+    background-image: url(../images/cpr-sc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .content-column {
+    padding-top: 166px;
+    padding-bottom: 188px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 80.25px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 30px; 
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+section:first-of-type {
+    background-color:paleturquoise;
+}
+
+    .main-paragraph-text {
+        text-align:left;
+        font-size: 18px;
+        margin-top:32px;
+        line-height: 1.385em;
+    }
+
+    section:first-of-type img {
+        height: 300px;
+        width: 400px;
+        float: right;
+        border-color: greenyellow;
+        margin-top: 32px;
+        margin-left:45px;
+        margin-bottom: 40px;
+    }
+
+section:nth-of-type(2) {
+    background-color:palegreen;
+}
+
+    ul {
+        margin-top: 30px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        position: center;
+    }
+
+    ul li {
+        font-size: 0.8rem;
+        display: flex;
+        width: 440px;
+        margin-right:40px;
+    }
+
+    ul strong {
+        font-size: 20px;
+    }
+
+    ul div {
+        width: 240px;
+        font-size: 18px;
+    }
+
+    #text {
+        margin-top: 10px;
+    }
+
+    li img {
+        height: 145px;
+        float: left;
+        background-color: black;
+        padding-top: 5px;
+        padding-left: 51px;
+        padding-right: 51px;
+        margin-right: 11px;
+        margin-bottom: 24px;
+        border-color: greenyellow;
+    }
+
+section:nth-of-type(3) {
+    background-color:palegoldenrod;
+    margin-top: -20px;
+    padding-bottom: 55px;
+}
+
+    .last-section-text {
+        margin-top: 33px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 1.4em;
+        width: 710px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    background-color: pink;
+}
