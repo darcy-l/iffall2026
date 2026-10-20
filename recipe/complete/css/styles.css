@@ -1,0 +1,74 @@
+html {
+    font-family:'Franklin Gothic Medium';
+    font-size: 18.5px;
+    color:  rgb(45, 41, 69);
+    background-color: rgb(218, 234, 237);
+}
+
+body {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top:1%;
+    margin-bottom:auto;
+    width: 95%;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(107, 101, 134);
+    margin: 0;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.note {
+    margin-top: 5px;
+    color:  rgb(107, 101, 134);
+    font-size:13px;
+    line-height:1.1;
+}
+
+strong {
+    color:  rgb(107, 101, 134);
+}
+
+.main-grid {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main-grid section {
+    width: 100%;
+    padding: 1%;
+    margin:0.25%;
+    background-color: rgb(255, 255, 251);
+    border-style:dotted;
+    border-color:  rgba(107, 101, 134, 0.51);
+}
+
+img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+@media (min-width: 400px) {
+    .main-grid section {max-width: 100%;}
+}
+
+@media (min-width: 900px) {
+    .main-grid section {max-width: 30%;}
+}
+
+footer {
+    font-size: 13px;
+    color:  rgb(107, 101, 134);
+}
