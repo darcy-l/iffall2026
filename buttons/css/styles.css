@@ -1,0 +1,127 @@
+a#btn_cn {
+	display: inline-block;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding: 10px;
+	border: 5px solid black;
+    background-color: black;
+	color: #fff;
+	font-size: 60px;
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 900;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a#btn_cn:hover {
+	background-color: #fff;
+	border: 5px solid #000;
+	color: #000;
+    font-size: 75px;
+    padding-top: 0;
+}
+
+a#btn_coca-cola {
+	display: inline-block;
+	height: 75px;
+    width: 75px;
+	box-sizing: border-box;
+    border-radius: 50px;
+	margin: auto;
+	margin-top: 90px;
+    background-color:red;
+	color: #fff;
+	font-size: 30px;
+    line-height: 30px;
+	font-family: 'Playwrite GB S', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a#btn_coca-cola:hover {
+    background-color: rgb(145, 0, 19);
+    margin-top: 75px;
+    height: 100px;
+    width: 100px;
+    padding: 15px 0 0 0;
+}
+
+a#btn_exploding-kittens {
+	display: inline-block;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding: 10px;
+	border: 2px solid black;
+    background-color: white;
+	color: black;
+	font-size: 30px;
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 200px;
+	text-decoration: none;
+}
+
+a#btn_exploding-kittens:hover {
+	background-color: rgb(172, 2, 2);
+    border: none;
+	color: white;
+    text-transform: uppercase;
+}
+
+a#btn_apple {
+	display: inline-block;
+	height: 150px;
+    width: 150px;
+	box-sizing: border-box;
+    border-radius: 100px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+    background-color: none;
+	color: black;
+	font-size: 100px;
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 900;
+	text-decoration: none;
+    transition: all 0.2s;
+}
+
+a#btn_apple:hover {
+	background-color: gray;
+	color: white;
+    box-shadow: 0 0 3px black;
+}
+
+a#btn_nike {
+	display: inline-block;
+	height: 100px;
+    width: 200px;
+	box-sizing: border-box;
+    border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding: 10px;
+    background-color: black;
+	color: #fff;
+	font-size: 70px;
+	font-family: 'Impact', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+    text-transform: uppercase;
+	transition: all .3s;
+}
+
+a#btn_nike:hover {
+	background-color: #fff;
+	border: 2px dashed #000;
+	color: #000;
+    font-size: 30px;
+    font-family: 'Impact', sans-serif;
+    font-weight: 100;
+    letter-spacing: 10px;
+    padding: 30px 0px 0px 10px;
+}
